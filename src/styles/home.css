@@ -129,6 +129,10 @@ nav {
   transform: scale(1.08);
 }
 
+.menu-link.active {
+  color: #ec6664;
+}
+
 /* Hero Section */
 .hero-section {
   background: #fafdff;
