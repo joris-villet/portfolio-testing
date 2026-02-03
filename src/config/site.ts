@@ -41,7 +41,10 @@ export const siteConfig = {
   // About Section
   about: {
     title: "About Me",
-    text: "Hi, I'm Someone, a passionate web developer and blogger. I love exploring new technologies and sharing knowledge with the community. On this blog, you'll find my thoughts on web development, tutorials, and project showcases. I hope my content can inspire others in their coding journey.",
+    text: `Hi, I'm Joris. I'm learning QA testing step by step, focusing on understanding products, finding issues, and improving user experience.
+    I come from a mixed background in web, UX, and IT, and I'm building my QA skills through practice and exploration.
+    This portfolio reflects my journey, my experiments, and my growth in the field.`,
+    image_url: "/image/bg-about.jpg",
   },
 
   // Contact Page
