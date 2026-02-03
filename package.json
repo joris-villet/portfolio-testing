@@ -1,5 +1,5 @@
 {
-  "name": "astro-cartoon-portfolio",
+  "name": "portfolio-testing-qa",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/react": "^4.4.2",
     "@edgeone/astro": "1.0.6",
     "@giscus/react": "^3.1.0",

@@ -1,10 +1,10 @@
 // Site-wide configuration
 export const siteConfig = {
   // Site metadata
-  name: "Astro Blog",
-  title: "Astro Blog",
-  description: "A modern blog built with Astro",
-  
+  name: "Portfolio | Testing QA",
+  title: "Testing QA",
+  description: "A modern minimal blog to make test QA",
+
   // Navigation
   navigation: {
     home: "Home",
@@ -12,35 +12,43 @@ export const siteConfig = {
     contact: "Contact",
     comments: "Comments",
   },
-  
+
   // Hero Section
   hero: {
     prefix: "I am",
-    name: "Someone Name",
-    intro: "I am a web developer and blogger, passionate about sharing knowledge and building cool things with code.\nWelcome to my portfolio blog!",
-    avatar: "/image/20943608.jpeg",
+    name: "Joris Villet",
+    intro: `I'm a QA Tester with strong knowledge in JavaScript, web development,\n UI/UX, and IT support. I love testing anything that can break.\n
+      Welcome to my portfolio.`,
+    avatar: "/image/profil-avatar.png",
     buttons: {
       viewPosts: "View Posts",
       contactMe: "Contact Me",
     },
     socialLinks: [
-      { name: "Twitter", icon: "/svg/twitter.svg", url: "https://x.com/astrodotbuild" },
-      { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
-      { name: "Facebook", icon: "/svg/facebook.svg", url: "https://www.facebook.com/astrodotbuild" },
-      { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/tomcomtang/astro-cartoon-portfolio" },
+      {
+        name: "LinkedIn",
+        icon: "/svg/linkedin.svg",
+        url: "https://www.linkedin.com/in/joris-villet-b09605354/",
+      },
+      {
+        name: "GitHub",
+        icon: "/svg/github.svg",
+        url: "https://github.com/joris-villet",
+      },
     ],
   },
-  
+
   // About Section
   about: {
     title: "About Me",
     text: "Hi, I'm Someone, a passionate web developer and blogger. I love exploring new technologies and sharing knowledge with the community. On this blog, you'll find my thoughts on web development, tutorials, and project showcases. I hope my content can inspire others in their coding journey.",
   },
-  
+
   // Contact Page
   contact: {
     title: "Get In Touch",
-    subtitle: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+    subtitle:
+      "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
     info: {
       email: {
         label: "Email",
@@ -60,10 +68,16 @@ export const siteConfig = {
     followMe: {
       title: "Follow Me",
       links: [
-        { name: "Twitter", icon: "/svg/twitter.svg", url: "https://x.com/astrodotbuild" },
-        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
-        { name: "Facebook", icon: "/svg/facebook.svg", url: "https://www.facebook.com/astrodotbuild" },
-        { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/tomcomtang/astro-cartoon-portfolio" },
+        {
+          name: "LinkedIn",
+          icon: "/svg/linkedin.svg",
+          url: "https://www.linkedin.com/in/joris-villet-b09605354/",
+        },
+        {
+          name: "GitHub",
+          icon: "/svg/github.svg",
+          url: "https://github.com/joris-villet",
+        },
       ],
     },
     footerText: [
@@ -72,7 +86,7 @@ export const siteConfig = {
     ],
     messageButton: "💬 Leave a Message",
   },
-  
+
   // Footer
   footer: {
     copyright: "© 2025 Someone. All rights reserved.",
@@ -86,18 +100,20 @@ export const siteConfig = {
       url: "https://github.com/tomcomtang/astro-cartoon-portfolio",
     },
   },
-  
+
   // Posts Page
   posts: {
     title: "Blog Posts",
-    subtitle: "Explore our latest articles on web development, design, and technology",
+    subtitle:
+      "Explore our latest articles on web development, design, and technology",
     searchPlaceholder: "Search posts...",
   },
-  
+
   // Comments Page
   comments: {
     title: "Comments & Discussion",
-    subtitle: "Share your thoughts, questions, or suggestions here. Let's connect and discuss!",
+    subtitle:
+      "Share your thoughts, questions, or suggestions here. Let's connect and discuss!",
     guidelines: {
       title: "Community Guidelines",
       items: [
@@ -111,4 +127,3 @@ export const siteConfig = {
     },
   },
 };
-
