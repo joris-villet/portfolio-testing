@@ -17,7 +17,7 @@ export const siteConfig = {
   hero: {
     prefix: "I am",
     name: "Joris Villet",
-    intro: `I'm a QA Tester with strong knowledge in JavaScript, web development,\n UI/UX, and IT support. I love testing anything that can break.\n
+    intro: `I'm a QA Tester with strong knowledge in JavaScript, web development,\n UI/UX, and IT support. I enjoy testing anything that can break.\n
       Welcome to my portfolio.`,
     avatar: "/image/profil-avatar.png",
     buttons: {
